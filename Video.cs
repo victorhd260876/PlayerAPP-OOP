@@ -36,7 +36,7 @@ public class Video : MediaItem // Inherits from MediaItem
             throw new ArgumentNullException(nameof(actor), "Artist cannot be empty.");
 
         Actor = actor;
-        Actor = actor ?? "Unknown Album"; // Operador ternario: condition ?? value if true : value if false
+        Actor = actor ?? "Unknown Actor"; // Operador ternario: condition ?? value if true : value if false
     }
 
     /// <summary>
