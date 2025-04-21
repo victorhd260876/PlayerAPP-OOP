@@ -13,6 +13,7 @@ public class Video : MediaItem // Inherits from MediaItem
     // Specific properties for a Video
     public string Actor { get; private set; }
     public string Formato { get; private set; }
+    public string Medio { get; private set; }
 
     /// <summary>
     /// Provides the implementation for the abstract CreatorInfo property from MediaItem.
