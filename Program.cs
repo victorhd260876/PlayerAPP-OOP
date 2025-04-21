@@ -22,9 +22,8 @@ class Program
         var audioBook1 = new AudioBook("The Hobbit", "J.R.R. Tolkien", "Rob Inglis", TimeSpan.FromHours(11.1));
 
         //Create two Video Objects
-        var video1 = new Video("Titanic", "Leonardo DiCaprio", "DVD", TimeSpan.FromHours(2.1));
-        var video2 = new Video("The Godfather", "Marlon Brando", "Blue Ray", TimeSpan.FromHours(2.55));
-
+        var video1 = new Video("Titanic", "Leonardo DiCaprio", "MP4", "DVD", TimeSpan.FromHours(2.1));
+        var video2 = new Video("The Godfather", "Marlon Brando", "MPEG-2", "Blue Ray", TimeSpan.FromHours(2.55));
 
         // --- Using the Player ---
         // Create an instance of the MusicPlayer
@@ -49,7 +48,7 @@ class Program
         };
 
         // Load the list into the player
-        player.LoadPlaylist(myPlaylist, "My Mixed Favorites");
+        player.LoadPlaylist(myPlaylist, "My Favorite Mixes");
 
         // --- User Interaction Loop ---
         string command = "";
