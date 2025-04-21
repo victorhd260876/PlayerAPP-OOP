@@ -27,8 +27,9 @@ public class Video : MediaItem // Inherits from MediaItem
     /// <param name="title">Title of the Video.</param>
     /// <param name="actor">Actor of the Video.</param>
     /// <param name="formato">Format the Video belongs to.</param>
+    /// <param name="medio">Medio de almacenamiento del Video.</param>
     /// <param name="duration">Duration of the Video.</param>
-    public Video(string title, string actor, string formato, TimeSpan duration)
+    public Video(string title, string actor, string formato, string medio,TimeSpan duration)
         : base(title, duration) // Call the base class constructor first
     {
         // Encapsulation: Internal data is protected. We use properties with private setters
