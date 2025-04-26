@@ -88,7 +88,7 @@
         {
             Console.WriteLine("\nAgregar un nuevo Cliente: ");
 
-            Console.WriteLine("Dni del empleado: ");
+            Console.WriteLine("Dni del Cliente: ");
             string Dni = Console.ReadLine();
 
             Console.WriteLine("Tipo de Empleado: ");

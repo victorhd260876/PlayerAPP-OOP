@@ -24,6 +24,7 @@ class Program
         //Create two Video Objects
         var video1 = new Video("Titanic", "Leonardo DiCaprio", "MP4", "DVD", TimeSpan.FromHours(2.1));
         var video2 = new Video("The Godfather", "Marlon Brando", "MPEG-2", "Blue Ray", TimeSpan.FromHours(2.55));
+        // public Video(string title, string actor, string formato, string medio,TimeSpan duration)
 
         // --- Using the Player ---
         // Create an instance of the MusicPlayer

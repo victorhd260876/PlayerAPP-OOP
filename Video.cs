@@ -62,6 +62,7 @@ public class Video : MediaItem // Inherits from MediaItem
     {
         base.DisplayDetails(); // Call the base class method first to display common info
         Console.WriteLine($"  Actor: {Actor}"); // Add Video-specific info
+        Console.WriteLine($"  Formato: {Formato}");
     }
 
     /// <summary>
